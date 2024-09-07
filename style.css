@@ -1,0 +1,148 @@
+/* html {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.top-container span {
+    text-decoration: underline;
+}
+
+.top-container {
+    position: relative;
+    background-color: #d1eff9;
+    padding-top: 100px;
+}
+
+h1{
+    font-family: "Sacramento", cursive;
+    font-size: 5.5rem;
+    color:#ff9874;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 2.5rem;
+    color:#ff9874;
+}
+
+.top-container p {
+    color:#ff9874;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.notebook {
+    position: absolute;
+    height: 150px;
+    top: 30px;
+    right: 300px;
+}
+
+.paper-plan {
+    height: 80px;
+    position: absolute;
+    left: 300px;
+}
+
+.working-group {
+    margin-top: 90px;
+}
+
+.middle-container {
+    margin-top: 50px;
+}
+
+.middle-container span {
+    color: red;
+}
+
+.profile-img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.middle-container h2 {
+    color: #ff9874;
+}
+
+.middle-container p {
+    color: #a6a6a6;
+    width: 20%;
+    margin: auto;
+}
+
+hr {  
+    border: 6px dotted #d1eff9;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+}
+
+
+
+.skill-box  {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(3 , 1fr);
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+    
+}
+
+.job-img {
+    height: 150px;
+}
+
+h3 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #cc7d61;
+    margin: 20px;
+}
+
+.Contact-me p {
+    /* color: #a6a6a6; */
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.contact-btt {
+    color: white;
+    border: none;
+    background-color: #3f77da;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.footer {
+    background-color: #d1eff9;
+    padding: 50px 0 20px;
+}
+
+.link-info {    
+    text-decoration: none;
+    font-family: "Merriweather Sans", sans-serif;  
+    color: #3f77da;
+    padding: 0 50px 0 50px;
+}
+
+.copy-right {
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    color: #3f77da;
+    padding: 20px 0 20px;
+}
